@@ -13,6 +13,12 @@
                                                 .barra-izquierda {
                                                     display: flex;
                                                     font-size: 10;
+                                                }
+                                                
+                                                .barra-superior:hover,
+                                                .navegacion__ul:hover,
+                                                .navegacion:hover,
+                                                .barra-izquierda:hover {
                                                     font-size: 18px;
                                                     transition: font-size 0.5s ease 0s;
                                                 }
