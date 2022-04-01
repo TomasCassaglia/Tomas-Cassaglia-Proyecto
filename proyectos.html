@@ -6,62 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyects</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
+<body class="container-fluid">
     <header>
         <div>
-            <div class="barra-superior">
+            <div class="row barra-superior">
                 <a class="h1-enlace" href="index.html">
-                    <h1 class="titulo-1">Tomas Agustin Cassaglia</h1>
+                    <h1 class="col-lg-6 col-md-3 col-sm-2 titulo-1">Tomas Agustin Cassaglia</h1>
                 </a>
                 <nav class="navegacion">
                     <ul class="navegacion__ul">
                         <li class="navegacion__li">
-                            <a class="navegacion__enlace" href="habilidades.html">Habilidades </a>
+                            <a class="col-lg-3 col-md-3 col-sm-1 navegacion__enlace" href="habilidades.html">Habilidades </a>
                         </li>
                         <li class="navegacion__li">
-                            <a class="navegacion__enlace" href="proyectos.html">Proyectos</a>
+                            <a class="col-lg-3 col-md-3 col-sm-1 navegacion__enlace" href="proyectos.html">Proyectos</a>
                         </li>
                         <li class="navegacion__li">
-                            <a class="navegacion__enlace" href="contacto.html">Contacto</a>
+                            <a class="col-lg-3 col-md-3 col-sm-1 navegacion__enlace" href="contacto.html">Contacto</a>
                         </li>
                         </li>
                         <li class="navegacion__li">
-                            <a class="navegacion__enlace" href="cv.html">Cv</a>
+                            <a class="col-lg-3 col-md-3 col-sm-1 navegacion__enlace" href="cv.html">Cv</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <h1>Proyectos</h1>
-            <table class="tabla-proyectos">
-                <div class="div-proyectos">
-                    <p class="p-numero"><strong>1</strong></p>
-                    <p class="p-sa">-------.sa</p>
-                    <p class="p-ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    <p class="p-fecha">03/03/2022</p>
-
-                </div>
-                <div class="div-proyectos">
-                    <p class="p-numero"><strong>2</strong></p>
-                    <p class="p-sa">-------.sa</p>
-                    <p class="p-ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    <p class="p-fecha">22/04/2022</p>
-
-
-
-                </div>
-                <div class="div-proyectos">
-                    <p class="p-numero"><strong>3</strong></p>
-                    <p class="p-sa">-------.sa</p>
-                    <p class="p-ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
-                    <p class="p-fecha">14/05/2022</p>
-                </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>_______.sa</td>
+                        <td>_______.sa</td>
+                        <td>_______.sa</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, explicabo? Optio debitis numquam tempore sed facilis sapiente voluptate similique harum autem, veritatis ab incidunt enim vero ex, itaque dignissimos! Ipsa.</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sint ea ducimus at nobis voluptates asperiores eos? Eos eius assumenda officia itaque, numquam distinctio at veritatis maiores tenetur magni beatae?</td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis necessitatibus nulla tempore illum doloremque. Quas magnam nemo omnis, totam nulla eos reprehenderit tenetur laudantium quos consequuntur odit, velit dolor dicta.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>28/8/2022</td>
+                        <td>11/9/2022</td>
+                        <td>17/10/2022</td>
+                    </tr>
+                </tbody>
             </table>
 
         </div>
@@ -69,6 +77,8 @@
     <footer class="footer-1">
         <p>Todos los derechos reservados</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 
