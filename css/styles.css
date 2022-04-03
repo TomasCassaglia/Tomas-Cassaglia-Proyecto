@@ -96,6 +96,12 @@
                 width: 10rem;
                 height: 10rem;
             }
+            /* CV */
+            
+            .img-portfolio {
+                height: 40rem;
+                width: 36rem;
+            }
             /* Responsive */
             
             @media screen and (max-width: 1440px) {
