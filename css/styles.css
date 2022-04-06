@@ -97,6 +97,10 @@
                 height: 10rem;
             }
             /* CV */
+            
+            .img-cv {
+                border-radius: 5%;
+            }
             /* Responsive */
             
             @media screen and (max-width: 1440px) {
@@ -160,6 +164,7 @@
                 .img-cv {
                     height: 38rem;
                     width: 31rem;
+                    border-radius: 5%;
                 }
             }
             
@@ -195,6 +200,7 @@
                 .img-cv {
                     height: 30rem;
                     width: 23rem;
+                    border-radius: 5%;
                 }
                 .card-text {
                     height: 3rem;
