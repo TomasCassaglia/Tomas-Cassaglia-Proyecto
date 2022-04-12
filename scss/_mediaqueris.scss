@@ -1,0 +1,92 @@
+@media screen and (max-width: 1440px) {
+    body {
+        background-image: url(../img/header_background.jpg);
+        background-position: center;
+        background-size: cover 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 1440px;
+        width: 903px;
+    }
+    .contenedor-1 {
+        width: 45rem;
+        margin: 10rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-image: url(../img/header_background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 1658px;
+        width: 903px;
+    }
+    .contenedor-1 {
+        width: 45rem;
+        margin: 7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../img/header_background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 2162px;
+        width: 903px;
+    }
+    .contenedor-1 {
+        width: 45rem;
+        margin: 1rem;
+    }
+    .img-cv {
+        height: 38rem;
+        width: 31rem;
+        border-radius: 5%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-image: url(../img/header_background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        height: 118rem;
+        width: 903px;
+    }
+    .imagen-l,
+    .imagen-fc,
+    .imagen-g,
+    .imagen-ig {
+        width: 50rem;
+        height: 10rem;
+    }
+    .tamaño-footer {
+        font-size: 20px;
+    }
+    .p-ipsum {
+        height: 10rem;
+        width: 10rem;
+        font-size: 15px;
+    }
+    .contenedor-1 {
+        width: 45rem;
+        margin: 2rem;
+    }
+    .img-cv {
+        height: 30rem;
+        width: 23rem;
+        border-radius: 5%;
+    }
+    .card-text {
+        height: 3rem;
+        width: 20rem;
+    }
+}
