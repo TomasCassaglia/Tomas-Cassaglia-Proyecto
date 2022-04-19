@@ -17,3 +17,11 @@
     padding-top: 1rem;
     padding-left: 5rem;
 }
+
+$habs: (javascrip:#ffff00, css:#0017FF, Html: #ee6040, Reactjs: #00B9FF);
+@each $hab,
+$color in $habs {
+    .habs-#{$hab} {
+        background-color: $color;
+    }
+}
