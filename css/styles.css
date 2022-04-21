@@ -112,7 +112,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    height: 118rem;
+    height: 145rem;
     width: 903px; }
   .imagen-l,
   .imagen-fc,
@@ -127,7 +127,7 @@ body {
     width: 10rem;
     font-size: 15px; }
   .contenedor-1 {
-    width: 45rem;
+    width: 21rem;
     margin: 2rem; }
   .img-cv {
     height: 30rem;
@@ -135,4 +135,12 @@ body {
     border-radius: 5%; }
   .card-text {
     height: 3rem;
-    width: 20rem; } }
+    width: 20rem; }
+  .grid-habs {
+    width: 27rem;
+    height: 27rem; }
+  .parrafo-f {
+    padding-right: 31rem; }
+  .table {
+    height: 1rem;
+    width: 26rem; } }
